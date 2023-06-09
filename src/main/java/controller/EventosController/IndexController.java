@@ -21,7 +21,7 @@ import models.eventos;
 public class IndexController implements Initializable {
 
     @FXML
-    public Button CrearEvento;
+    public Button boton1;
 
     @FXML
     public TableColumn<eventos, Button> acciones;
@@ -43,11 +43,6 @@ public class IndexController implements Initializable {
 
     @FXML
     public TableView<eventos> tablaEventos;
-
-    @FXML
-    void irACreate(MouseEvent event) {
-
-    }
     /**
      * Initializes the controller class.
      */

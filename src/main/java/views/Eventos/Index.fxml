@@ -44,19 +44,16 @@
          </VBox.margin>
       </VBox>
       <VBox alignment="CENTER" prefHeight="47.0" prefWidth="600.0">
-         <children>
-            <Button fx:id="CrearEvento" mnemonicParsing="false" onMouseClicked="#irACreate" prefHeight="32.0" prefWidth="122.0" styleClass="button-primary" text="Crear Evento">
-               <font>
-                  <Font name="Freestyle Script" size="25.0" />
-               </font>
-               <VBox.margin>
-                  <Insets right="30.0" />
-               </VBox.margin>
-            </Button>
-         </children>
          <VBox.margin>
             <Insets left="30.0" right="30.0" top="20.0" />
          </VBox.margin>
+         <children>
+            <Button fx:id="boton1" mnemonicParsing="false" text="CREAR">
+               <font>
+                  <Font name="Freestyle Script" size="25.0" />
+               </font>
+            </Button>
+         </children>
       </VBox>
    </children>
 </VBox>
